@@ -38,13 +38,13 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav me-auto">
                          <li class="nav-item ">
-                                    <a class="nav-link @if($active == 'home') {{'active'}} @endif" href="{{ route('home') }}">{{ __('Home') }}</a>
+                                    <a class="nav-link " href="{{ route('home') }}">{{ __('Home') }}</a>
                           </li>
                           <li class="nav-item ">
-                                    <a class="nav-link @if($active == 'employees') {{'active'}} @endif" href="{{ route('employees') }}">{{ __('Employees') }}</a>
+                                    <a class="nav-link " href="{{ route('employees') }}">{{ __('Employees') }}</a>
                           </li>
                           <li class="nav-item">
-                                    <a class="nav-link @if($active == 'tasks') {{'active'}} @endif" href="{{ route('tasks') }}">{{ __('Tasks') }}</a>
+                                    <a class="nav-link " href="{{ route('tasks') }}">{{ __('Tasks') }}</a>
                            </li>
                     </ul>
 
